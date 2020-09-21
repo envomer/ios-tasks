@@ -13,6 +13,8 @@
 		F6E3F8C225188507002D3826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E3F8C025188507002D3826 /* Main.storyboard */; };
 		F6E3F8C425188508002D3826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E3F8C325188508002D3826 /* Assets.xcassets */; };
 		F6E3F8C725188508002D3826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E3F8C525188508002D3826 /* LaunchScreen.storyboard */; };
+		F6E3F8CF251888ED002D3826 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E3F8CE251888ED002D3826 /* EntryViewController.swift */; };
+		F6E3F8D1251888FF002D3826 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E3F8D0251888FF002D3826 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F6E3F8C325188508002D3826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6E3F8C625188508002D3826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6E3F8C825188508002D3826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E3F8CE251888ED002D3826 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		F6E3F8D0251888FF002D3826 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F6E3F8C325188508002D3826 /* Assets.xcassets */,
 				F6E3F8C525188508002D3826 /* LaunchScreen.storyboard */,
 				F6E3F8C825188508002D3826 /* Info.plist */,
+				F6E3F8CE251888ED002D3826 /* EntryViewController.swift */,
+				F6E3F8D0251888FF002D3826 /* TaskViewController.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6E3F8BF25188507002D3826 /* ViewController.swift in Sources */,
+				F6E3F8CF251888ED002D3826 /* EntryViewController.swift in Sources */,
+				F6E3F8D1251888FF002D3826 /* TaskViewController.swift in Sources */,
 				F6E3F8BB25188507002D3826 /* AppDelegate.swift in Sources */,
 				F6E3F8BD25188507002D3826 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4T64V8DJJ4;
 				INFOPLIST_FILE = Tasks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4T64V8DJJ4;
 				INFOPLIST_FILE = Tasks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
