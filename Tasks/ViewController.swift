@@ -67,6 +67,12 @@ extension ViewController: UITableViewDelegate {
         let vc = storyboard?.instantiateViewController(withIdentifier: "task") as! TaskViewController
         vc.title = "Task detail"
         vc.task = self.tasks[indexPath.row]
+        vc.index = indexPath.row + 1
+        vc.update = {
+            DispatchQueue.main.async {
+                self.updateTasks()
+            }
+        }
         navigationController?.pushViewController(vc, animated: true)
     }
 }
